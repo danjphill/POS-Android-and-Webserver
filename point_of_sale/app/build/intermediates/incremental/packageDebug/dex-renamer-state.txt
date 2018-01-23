@@ -1,0 +1,7 @@
+#Mon May 22 11:08:50 GMT-04:00 2017
+base.0=C\:\\Users\\Daniel Phillips\\Documents\\UWI\\Year 3\\Semester 2\\ECNG 6613\\Android App\\point_of_sale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1bcd3277b6059730bad2efb1a108cda6b9580faf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Daniel Phillips\\Documents\\UWI\\Year 3\\Semester 2\\ECNG 6613\\Android App\\point_of_sale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a138a0ffc93a1813aecd5c25c1c1403dc3a3560a\\classes.dex
+base.1=C\:\\Users\\Daniel Phillips\\Documents\\UWI\\Year 3\\Semester 2\\ECNG 6613\\Android App\\point_of_sale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a138a0ffc93a1813aecd5c25c1c1403dc3a3560a
+file.0=C\:\\Users\\Daniel Phillips\\Documents\\UWI\\Year 3\\Semester 2\\ECNG 6613\\Android App\\point_of_sale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1bcd3277b6059730bad2efb1a108cda6b9580faf\\classes.dex

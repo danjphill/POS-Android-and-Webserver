@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="150dp"
+        android:textAlignment="center"
+        android:paddingBottom="25dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Enter Webserver IP Address Below" />
+
+    <EditText
+        android:id="@+id/set_ip_address"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:digits="0123456789.:"
+        android:hint="IPv4 Address" />
+
+    <Button
+        android:id="@+id/set_ip_connect"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Connect" />
+
+    <ProgressBar
+        android:id="@+id/set_ip_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_cus_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        android:text="" />
+    <EditText
+        android:id="@+id/add_cus_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/add_cus_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Location"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/add_cus_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE CUSTOMER" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+</LinearLayout>

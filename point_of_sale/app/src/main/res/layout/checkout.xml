@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="200dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/checkbox_employee_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:text="Casher: Jane Doe" />
+
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/checkout_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Total Cost: $10.00" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/checkout_list"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/checkout_btn_checkout"
+                android:layout_width="150dp"
+                android:height="70dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout" />
+            <ImageButton
+                android:id="@+id/checkout_btn_clear"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/ic_delete_black_48dp"
+                android:text="Clear Cart" />
+            <ImageButton
+                android:id="@+id/checkout_btn_add"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/ic_add_48pt_3x"
+                android:text="Clear Cart" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

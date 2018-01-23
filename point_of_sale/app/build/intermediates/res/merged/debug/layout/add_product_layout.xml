@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_product_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/add_product_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+    <EditText
+        android:id="@+id/add_product_PriceUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price Unit" />
+    <EditText
+        android:id="@+id/add_product_Barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="UPC Barcode" />
+    <EditText
+        android:id="@+id/add_product_Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/add_product_MarginPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Margin Percentage" />
+    <EditText
+        android:id="@+id/add_product_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Location" />
+    <EditText
+        android:id="@+id/add_product_Expiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Expiration" />
+    <EditText
+        android:id="@+id/add_product_Supplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="SupplierID" />
+
+    <Button
+        android:id="@+id/add_product_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Product" />
+</LinearLayout>

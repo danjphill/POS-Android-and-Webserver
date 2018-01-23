@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.ecng6613.point_of_sale">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Set_IP">
+            <intent-filter>
+                <action android:name="android.intent.action.SETIP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".LoginScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.LOGINSCREEN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".Current_Profile">
+            <intent-filter>
+                <action android:name="android.intent.action.CURRENTPROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".checkout_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.CHECKOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProductLocator">
+            <intent-filter>
+                <action android:name="android.intent.action.PRODUCTLOC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_Customer">
+            <intent-filter>
+                <action android:name="android.intent.action.PRODUCTLOC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Customers">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Customer_Info">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_rewards">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".add_supplier">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view_suppliers">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_Employee">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Employees">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_Product">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

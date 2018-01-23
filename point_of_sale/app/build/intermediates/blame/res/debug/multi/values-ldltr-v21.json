@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Daniel Phillips\\Documents\\UWI\\Year 3\\Semester 2\\ECNG 6613\\Android App\\point_of_sale\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\Daniel Phillips\\.android\\build-cache\\4ced41a1e548564019694077020424a9644472c2\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    }
+]

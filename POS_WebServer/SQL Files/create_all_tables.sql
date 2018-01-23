@@ -1,0 +1,7 @@
+#CREATE table products (id integer not null auto_increment, product_name text,price real,price_units text,upc_barcode text, quantity integer, number_sold integer, margin_percentage real,total_sales real,location_id integer, expiration_data date,supplier_id integer,aisle integer, primary key (id));
+#CREATE table product_locations (location_id int NOT NULL auto_increment, location_name text, PRIMARY KEY (location_id));
+#CREATE table customers (customer_id integer not null auto_increment,first_name text, last_name text, date_joined date, points real,total_items_purchased int, location text, image_location text, primary key (customer_id));   
+#CREATE table employees (employee_id integer not null auto_increment, password_hash text, total_hours_work real, last_login datetime, date_employeed date, primary key(employee_id));
+#CREATE table supplier (supplier_id integer not null auto_increment, supplier_name text, supplier_number text, supplier_address text, primary key (supplier_id)); 
+#CREATE table purchases (purchase_id int not null auto_increment, upc_barcode text, customer_id int, purchase_date date,quantity_sold int, primary key (purchase_id));
+CREATE table loyality_rewards_prizes (reward_id int not null auto_increment, reward_name text, points_required real, available text, primary key (reward_id));
